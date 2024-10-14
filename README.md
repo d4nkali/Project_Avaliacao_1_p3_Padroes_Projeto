@@ -1,2 +1,3 @@
-# template_uniesp_projects
-Repositório de exemplo para criar outros repositórios para projetos da faculdade.
+# Projeto/Avaliação 1 - Padrões de Projetos p3
+
+Projeto/Primeira Avaliação da Cadeira de Padrões de Projetos - p3.
