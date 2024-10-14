@@ -5,12 +5,12 @@ import java.util.List;
 
 class Biblioteca {
 
-    private String nome;
+    private String nomeBiblioteca;
     private List<Livro> livrosDisponiveis;
 
-    public Biblioteca(String nome) {
+    public Biblioteca(String nomeBiblioteca) {
 
-        this.nome = nome;
+        this.nomeBiblioteca = nomeBiblioteca;
         this.livrosDisponiveis = new ArrayList<>();
 
     }
@@ -40,7 +40,7 @@ class Biblioteca {
 
     public void exibirLivrosDisponiveis() {
 
-        System.out.println("Livros disponíveis na " + nome + ":");
+        System.out.println("Livros disponíveis na " + nomeBiblioteca + ":");
 
         if (livrosDisponiveis.isEmpty()) {
 
@@ -58,12 +58,12 @@ class Biblioteca {
 
     }
 
-    public String getNome() {
-        return nome;
+    public String getNomeBiblioteca() {
+        return nomeBiblioteca;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeBiblioteca(String nomeBiblioteca) {
+        this.nomeBiblioteca = nomeBiblioteca;
     }
 
 }
